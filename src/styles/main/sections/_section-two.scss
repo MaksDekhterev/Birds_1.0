@@ -1,0 +1,107 @@
+.two {
+  margin-top: 70px;
+  width: 100%;
+  height: 574px;
+  background: linear-gradient(270deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
+    url(/src/images/Rectangle.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rectangle {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+
+  &__logo {
+    margin-top: 70px;
+    display: flex;
+    gap: 20px;
+    width: 521px;
+  }
+  &__star {
+    width: 80px;
+    height: 80px;
+  }
+
+  &__title {
+    color: $text-color-white;
+    font-size: 40px;
+    font-family: "Raleway", system-ui, -apple-system, BlinkMacSystemFont,
+      "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+      "Helvetica Neue", sans-serif;
+    font-weight: 500;
+  }
+
+  &__text {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+  }
+  &__text-1 {
+    color: $text-color-white;
+    font-size: 18px;
+    font-family: "Raleway", system-ui, -apple-system, BlinkMacSystemFont,
+      "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+      "Helvetica Neue", sans-serif;
+    font-weight: 500;
+    line-height: 25px;
+  }
+  &__text-2 {
+    color: $text-color-white;
+    font-size: 18px;
+    font-family: "Raleway", system-ui, -apple-system, BlinkMacSystemFont,
+      "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+      "Helvetica Neue", sans-serif;
+    font-weight: 500;
+    line-height: 25px;
+  }
+  &__button {
+    margin-top: 60px;
+    width: 257px;
+    height: 65px;
+    border: none;
+    background-color: $widget-color-yellow;
+    font-size: 18px;
+    font-family: "Raleway", system-ui, -apple-system, BlinkMacSystemFont,
+      "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+      "Helvetica Neue", sans-serif;
+    font-weight: 500;
+    line-height: 20px;
+    color: $text-color-black;
+    cursor: pointer;
+  }
+}
+
+.team {
+  margin-top: 53px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+  &__text-1 {
+    font-size: 40px;
+    font-family: "Raleway", system-ui, -apple-system, BlinkMacSystemFont,
+      "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+      "Helvetica Neue", sans-serif;
+    font-weight: 500;
+    color: $text-color-black;
+  }
+
+  &__text-2{
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: "Raleway", system-ui, -apple-system, BlinkMacSystemFont,
+      "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+      "Helvetica Neue", sans-serif;
+    font-weight: 500;
+    color: $text-color-black;
+    line-height: 150%;
+  }
+
+  &__authors{
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+  }
+}
